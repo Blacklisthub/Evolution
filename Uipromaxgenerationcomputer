@@ -1716,7 +1716,7 @@ do
             PlaceholderText = Info.Placeholder or '';
 
             Text = Info.Default or '';
-            TextColor3 = Library.FontColor;
+            TextColor3 = Color3.fromRGB(190, 190, 190);
             TextSize = 14;
             TextStrokeTransparency = 0;
             TextXAlignment = Enum.TextXAlignment.Left;
